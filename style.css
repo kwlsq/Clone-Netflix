@@ -2,6 +2,7 @@ body{
     background-color: black;
     margin: 0px;
     padding: 0px;
+    
     font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
 }
 
@@ -10,13 +11,12 @@ body{
     background-image: url("image/background\ netflix.jpg");
     background-size: 1920px 720px;
     background-repeat: no-repeat;
-    height: 700px;  
+    height: 850px;  
     border-bottom: 7px solid rgb(44, 44, 44);
 }
 .header-1 {
     display: flex;
     height: 80px;
-    max-width: 1920px;
     justify-content: space-between;
     padding: 0% 2.8% 0% 2.8%;
     position: sticky;
@@ -83,24 +83,25 @@ body{
 
 .timeline{
     align-items: center;
+    margin-bottom: -18%;
 }
 
 .pembatas{
     position: relative;
     top: -42px;
-    left: -50px;
+    left: 680px;
 }
 
 .bullet-before{
     position: relative;
     top: -150px;
-    left: 2px;
+    left: 715px;
 }
 
 .bullet-after{
     position: relative;
     top: -255px;
-    left: 440px;
+    left: 1150px;
 }
 
 .televisi{ 
@@ -111,13 +112,37 @@ body{
     background-repeat: no-repeat;
     transition: 500ms;
     padding-right: 10%;
-    
+}
+
+
+.img-mail{
+    width: 50px;
+    height: auto;
+    padding-top: 25px;
+    margin-right: 10px;
+}
+
+.mail{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    left: 20px;
+}
+
+.kami-akan{
+    width: 700px;
+    position: relative;
+    display: flex;
+    text-align: center;
+    left: 400px;
+    margin-bottom: 1%;
 }
 
 .huruf-hijau-kecil{
     font-size: 26px;
     color: #00D65F;
     font-weight: 600;
+    
 }
 
 .huruf-putih-kecil{
@@ -132,6 +157,37 @@ body{
     width: 1410px;
     margin-bottom: -1.1%;
     
+}
+
+.pengingat{
+    display: flex;
+    justify-content: center;
+}
+
+.welcome-button{
+    display: flex;
+    justify-content: center;
+}
+.welcome-button button{
+    margin-top: 20px;
+    width: 482px;
+    height: 70px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    font-size: 30px;
+}
+
+.red{
+    background-color: #f40612;
+
+}
+
+.transparent{
+    background-color: transparent;
+    border: 0.5px solid white !important;
 }
 
 .img-televisi{
